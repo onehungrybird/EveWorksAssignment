@@ -1,6 +1,6 @@
 # EveWorksAssignment
 
-# Question Answering System with PubMed Dataset, Fine-Tuned Model, and FAISS for Efficient Retrieval
+## Question Answering System with PubMed Dataset, Fine-Tuned Model, and FAISS for Efficient Retrieval
 
 This project implements a question-answering (QA) system using the PubMed dataset, a fine-tuned LLaMA model, and FAISS for efficient similarity-based retrieval of relevant contexts. The goal is to build a system that can provide answers to questions based on medical contexts retrieved from PubMed articles. It uses a fine-tuned LLaMA model, knowledge stored in FAISS indices, and Flask for serving the application as a web service.
 
@@ -21,7 +21,7 @@ Make sure you have the following installed:
 - CUDA-enabled GPU (optional but recommended for training and embedding)
 
 
-
+##
 **The model is fine-tuned using the following steps:**
 
 Loading the Dataset: The PubMed QA dataset (pubmed_qa) is loaded.
